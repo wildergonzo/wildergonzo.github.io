@@ -72,20 +72,24 @@ span {
 }
     
 .header {
-  margin: 10px 0px 0px 0px;
+  margin: 5px 0px 0px 0px;
 }
     
 p {
   margin-top: 5px;
 }
 
-img {
-  width: 15%;
-  height: auto;
-  text-align: center;
+.borderless tr,
+.borderless td,
+.borderless th {
+  border: none !important;
 }
 
-.container {
-  padding-top: 80px;
-  margin: auto;
+#davatar {
+  padding-top: 40px;
+}
+
+.avatar {
+  width: 15%;
+  height: auto;
 }

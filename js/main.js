@@ -1,40 +1,40 @@
 
 const info = {
   'name': 'Wilder Gonzales',
-  'subtitle': 'Context-Driven Software Tester',
+  'subtitle': 'Software Engineer in Test',
   'bio': '“We only see what we know." --Goethe',
   'contact_links': [{
-    'name': 'blogspot.com',
-    'link': 'https://wildergonzo.blogspot.com/' },
-  {
-    'name': 'github.com',
-    'link': 'https://github.com/wildergonzo' },
-  {
-    'name': 'linkedin.com',
-    'link': 'https://www.linkedin.com/in/wildergonzales/' },
-  {
-    'name': 'twitter.com',
-    'link': 'https://twitter.com/wildergonzo' }],
+      'name': 'blogspot.com',
+      'link': 'https://wildergonzo.blogspot.com/' },
+    {
+      'name': 'github.com',
+      'link': 'https://github.com/wildergonzo' },
+    {
+      'name': 'linkedin.com',
+      'link': 'https://www.linkedin.com/in/wildergonzales/' },
+    {
+      'name': 'twitter.com',
+      'link': 'https://twitter.com/wildergonzo' }],
 
   'work_history': [{
-    'title': 'Test Automation Engineer',
-    'location': 'Mailtrack',
-    'date': '2018 - 2020',
-    'text': 'doing automation' },
-  {
-    'title': 'Freelance Software Tester',
-    'location': 'Freelancer.com',
-    'date': '2016 - 2018',
-    'text': 'testing' },
-  {
-    'title': 'Software Test Engineer',
-    'location': 'Jalasoft',
-    'date': '2010 -2015',
-    'text': 'breaking things' }],
+      'title': 'Sr. Test Automation Engineer',
+      'location': 'Sogeti',
+      'date': '2020 - present',
+      'text': 'Java, Selenium, Cucumber, TestNG, Docker, Jenkins, XRay, JIRA' },
+    {
+      'title': 'Software Engineer in Test',
+      'location': 'Mailtrack',
+      'date': '2016 - 2020',
+      'text': 'Javascript, Webdriverio, Mocha, Chai, Jenkins, Exploratoty/Context-Driven Testing' },
+    {
+      'title': 'Staff Software Test Engineer',
+      'location': 'Jalasoft',
+      'date': '2010 -2015',
+      'text': 'Black-box, Regression, Exploratory testing, Bug hunting, Plan/Execute test strategy' }],
 
 
   'courses': [{
-    'name': 'Postgrade Software Quality Assurance',
+    'name': 'Postgraduate Software Quality Assurance',
     'desc': 'Universitat Politecnica de Catalunya',
     'years': [
     '2019', '2020'],
@@ -42,15 +42,6 @@ const info = {
     'image_type': 'tall',
     'images': [
     'images/upc00.png'] },
-
-  {
-    'name': 'Black Box Software Tester Certified',
-    'desc': 'The BBST® Course Series',
-    'years': [
-    '2020'],
-
-    'image_type': 'tall',
-    'images': [] },
 
   {
     'name': 'ISTQB® Certified Tester Foundation Level (CTFL)',
@@ -62,7 +53,7 @@ const info = {
     'images': [] },
 
   {
-    'name': 'Postgrade Software Quality Assurance',
+    'name': 'Postgraduate Software Quality Assurance',
     'desc': 'Fundacion Jala',
     'years': [
     '2009', '2010'],

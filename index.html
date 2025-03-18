@@ -1,105 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>@wildergonzo.cv()</title>
-	<link rel="stylesheet" href="styles/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wilder Gonzales | Portfolio</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-	<div class="container">
-    <div class="word_split wrapper">
-    <span class="word word1">Wilder</span>
-    <span class="word word2">Gonzales</span>
-    <span class="word word3">Personal</span>
-    <span class="word word4">Details</span>
-    <span class="word word5">Employment</span>
-    <span class="word word6">History </span>
-    <span class="word word7">Education</span>
-    <span class="word word8">Personal</span>
-    <span class="word word9">Skills </span>
-    <span class="word word10">Technical</span>
-    <span class="word word11">Skills </span>
-    <span class="word word12">Get In </span>
-    <span class="word word13">Touch</span>
-
-    <div class="bubble1">
-      <span class="the-arrow1"></span>
-      HI! <br/> I AM..
-    </div>
-    <div class="bubble2">
-      <span class="the-arrow2"></span>
-      <img src="images/avatar23.jpg"/>
+  <div class="container">
+    <div class="profile">
+      <img src="images/avatar.png" alt="Wilder Gonzales" class="avatar">
     </div>
 
-    <div class="bubble3">
-      <span class="the-arrow3"></span>
-      MADE IN BOLIVIA<br/>
-      Living in Barcelona<br/>
-      Parent of a troll<br/>
-      HOBBIES: Football,<br/>
-      Movies,<br/>
-      ETC...<br/>
+    <div class="tags">
+      <span class="tag">#javascript</span>
+      <span class="tag">#nodejs</span>
+      <span class="tag">#selenium</span>
+      <span class="tag">#testing</span>
+      <span class="tag">#automation</span>
+      <span class="tag">#aws</span>
+      <span class="tag">#jenkins</span>
     </div>
 
-    <div class="bubble4">
-      <span class="the-arrow4"></span>
-      APTITUDE GLOBAL 2023 - Present<br/>
-      Test Automation Engineer<br/><br/>
-      ORACLE NetSuite 2021 - 2022<br/>
-      Software Engineer in Test<br/><br/>
-      SOGETI 2020 - 2021<br/>
-      Test Automation Engineer<br/><br/>
-      MAILTRACK 2016 - 2021<br/>
-      Software Test Engineer<br/><br/>
+    <div class="code-container">
+      <pre class="code-block">
+<span class="const">const</span> <span class="variable">aboutMe</span> = <span class="function">function</span>() {
+    <span class="return">return</span> {
+        <span class="property">name</span>: <span class="string">"Wilder Gonzales"</span>,
+        <span class="property">position</span>: <span class="string">"Software Engineer in Test"</span>,
+        <span class="property">whoami</span>: <span class="string">"I'm a skilled software tester with a passion for building reliable test frameworks. Delivers high-quality code, a strong problem-solver and team player."</span>,
+    }
+}
+
+<span class="const">const</span> <span class="variable">connectWithMe</span> = <span class="function">function</span>() {
+    <span class="return">return</span> {
+        <span class="property">github</span>: <span class="string">"@wildergonzo"</span>,
+        <span class="property">twitter</span>: <span class="string">"@wildergonzo"</span>,
+        <span class="property">linkedin</span>: <span class="string">"www.linkedin.com/in/wildergonzales/"</span>,
+        <span class="property">email</span>: <span class="string">"wilder.gonzales@gmail.com"</span>,
+    }
+}
+
+<span class="const">const</span> <span class="variable">experience</span> = <span class="function">function</span>() {
+    <span class="return">return</span> [
+    {
+        <span class="property">company</span>: <span class="string">"webbeds"</span>,
+        <span class="property">position</span>: <span class="string">"Sr. Software Engineer in Test"</span>,
+        <span class="property">period</span>: <span class="string">"2023 - Present"</span>
+    },
+    {
+        <span class="property">company</span>: <span class="string">"Aptitude Global"</span>,
+        <span class="property">position</span>: <span class="string">"Test Automation Engineer"</span>,
+        <span class="property">period</span>: <span class="string">"2023"</span>
+    },
+    {
+        <span class="property">company</span>: <span class="string">"Oracle NetSuite"</span>,
+        <span class="property">position</span>: <span class="string">"Software Engineer in Test"</span>,
+        <span class="property">period</span>: <span class="string">"2021 - 2022"</span>
+    },
+    {
+        <span class="property">company</span>: <span class="string">"Sogeti"</span>,
+        <span class="property">position</span>: <span class="string">"Test Automation Engineer"</span>,
+        <span class="property">period</span>: <span class="string">"2020 - 2021"</span>
+    },
+        {
+        <span class="property">company</span>: <span class="string">"Mailtrack"</span>,
+        <span class="property">position</span>: <span class="string">"Software Test Engineer"</span>,
+        <span class="property">period</span>: <span class="string">"2016 - 2021"</span>
+        }
+    ]
+}
+
+<span class="const">const</span> <span class="variable">education</span> = <span class="function">function</span>() {
+    <span class="return">return</span> [
+      {
+        <span class="property">institution</span>: <span class="string">"Universitat Politecnica de Catalunya"</span>,
+        <span class="property">degree</span>: <span class="string">"Postgraduate Software Quality Assurance"</span>
+      },
+      {
+        <span class="property">institution</span>: <span class="string">"Jala Foundation"</span>,
+        <span class="property">degree</span>: <span class="string">"Software Quality Assurance Program"</span>
+      },
+      {
+        <span class="property">institution</span>: <span class="string">"Universidad de Aquino Bolivia"</span>,
+        <span class="property">degree</span>: <span class="string">"System Engineering Degree"</span>
+      }
+    ]
+}
+
+<span class="const">const</span> <span class="variable">skills</span> = <span class="function">function</span>() {
+    <span class="return">return</span> {
+        <span class="property">technical</span>: [<span class="string">"JavaScript/Node"</span>, <span class="string">"Selenium/WebDriver"</span>, <span class="string">"Linux"</span>, <span class="string">"SQL"</span>, <span class="string">"AWS"</span>, <span class="string">"Jenkins/CircleCI/Travis"</span>, <span class="string">"JMeter"</span>],
+        <span class="property">personal</span>: [<span class="string">"Social Commitment"</span>, <span class="string">"Organization"</span>, <span class="string">"Creativity"</span>, <span class="string">"Communication"</span>, <span class="string">"Teamwork"</span>]
+    }
+}
+            </pre>
     </div>
 
-    <div class="bubble5">
-      <span class="the-arrow5"></span>
-      UNIVERSITAT POLITECNICA DE CATALUNYA<br/>
-      Postgraduate Software Quality Assurance<br/><br/>
-      JALA FUNDATION <br/>
-      Sofware Quality Assurance Program<br/><br/>
-      UNIVERSIDAD DE AQUINO BOLIVIA<br/>
-      System Enginering Degree
-    </div>
-
-    <div class="bubble6">
-      <span class="the-arrow6"></span>
-      SOCIAL COMMITMENT<br/>
-      ORGANIZATION<br/>
-      CREATIVITY<br/>
-      COMMUNICATION<br/>
-      TEAMWORK<br/>
-    </div>
-
-    <div class="bubble7">
-      <span class="the-arrow7"></span>
-      JAVASCRIPT/NODE<br/>
-      SELENIUM/WEBDRIVER<br/>
-      LINUX<br/>
-      SQL<br/>
-      AWS<br/>
-      JENKINS/CIRCLECI/TRAVIS<br/>
-      JMETER<br/>
-    </div>
-
-    <div class="bubble8">
-      <span class="the-arrow8"></span>
-      PHONE: 6615XXXXX<br/>
-      EMAIL: wilder.gonzales@gmail.com<br/>
-      WEBSITE: wildergonzo.blogspot.com/<br/>
-      TWITTER: @wildergonzo<br/>
-      LINKEDIN: www.linkedin.com/in/wildergonzales/<br/>
-    </div>
-
-    <br/>
-    <p class="text-center">Barcelona - Spain (2023)</p>
-    <!--<p class="text-center">Template from @SaraSoueidan</p>-->
-
+    <footer>
+      <p>Barcelona - Spain (2025)</p>
+    </footer>
   </div>
-
 </body>
 
 </html>
